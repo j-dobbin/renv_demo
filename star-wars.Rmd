@@ -13,7 +13,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r}
-# add statquotes code here (second exercise)
+library(statquotes)
+as.markdown(search_quotes("environment"))
 ```
 
 ## Most accomplished
